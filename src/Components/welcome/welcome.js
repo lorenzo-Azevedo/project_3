@@ -41,18 +41,18 @@ class Welcome extends Component {
                     <label for="inputExperience">Years of Experience</label>
                     <select id="signupExperience" className="form-control">
                       <option selected>Choose...</option>
-                      <option>Less than 5</option>
-                      <option>5 to 10</option>
-                      <option>10 to 20</option>
-                      <option>More than 20</option>
+                      <option value="1">Less than 5</option>
+                      <option value="2">5 to 10</option>
+                      <option value="3">10 to 20</option>
+                      <option value="4">More than 20</option>
                     </select>
                 </div>
                 <div className="form-row">
                   <div className="form-group col-md-6">
-                    <label for="inputCity">City</label>
+                    <label for="inputLocation">Location</label>
                     <input type="text" className="form-control" id="signupCity"/>
                   </div>
-                <div className="form-group col-md-4">
+                {/* <div className="form-group col-md-4">
                     <label for="inputState">State</label>
                     <select id="signupState" className="form-control">
                       <option selected>Choose...</option>
@@ -60,10 +60,10 @@ class Welcome extends Component {
                       <option>CA</option>
                       <option>FL</option>
                     </select>
-                </div>
+                </div> */}
                 </div>
                 <div className="form-group col-md-4">
-                    <label for="inputclassName">classNameification</label>
+                    <label for="inputClass">classification</label>
                     <select className="custom-select" id="signupclassName" multiple>
                     <option value="1">Actor</option>
                     <option value="2">Art (General)</option>
