@@ -1,0 +1,23 @@
+{
+    "development": {
+        "username": "root",
+        "password": purascal1976,
+        "database": "nexus",
+        "host": "127.0.0.1:3306",
+        "dialect": "mysql"
+    },
+    "test": {
+        "username": "root",
+        "password": purascal1976,
+        "database": "nexus",
+        "host": "127.0.0.1:3306",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": purascal1976,
+        "database": "nexus",
+        "host": "127.0.0.1:3306",
+        "dialect": "mysql"
+    }
+}
