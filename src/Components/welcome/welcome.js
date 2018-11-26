@@ -4,7 +4,7 @@ import img from './welcome.jpg'
 class Welcome extends Component {
   render() {
     return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="welcomeComponent">
       <div className="container-clearfix divs">
       <div className="container" id="welcomeForm">
       <img src={img} alt="." />

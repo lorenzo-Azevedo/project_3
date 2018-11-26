@@ -34,7 +34,7 @@ nav {
     font-weight: bold;
 }
 .divs {
-    margin-top: 12%;
+    margin-top: 14%;
     margin-bottom: 7%;
 }
 body {
@@ -76,5 +76,23 @@ img {
 }
 #listingButtons {
     padding: 10px;
-    overflow:hidden ; 
+    overflow:hidden; 
+}
+#welcomeComponent {
+    display: block;
+}
+#signupComponent {
+    display: none;
+}
+#listingFormComponent {
+    display: none;
+}
+#loginComponent {
+    display: none;
+}
+#clientComponent {
+    display: none;
+}
+#listingComponent {
+    display: none;
 }

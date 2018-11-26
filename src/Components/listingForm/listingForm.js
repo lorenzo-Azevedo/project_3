@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ListingForm extends Component {
   render() {
     return (
-    <div classNameName="container-fluid">
+    <div classNameName="container-fluid" id="listingFormComponent">
     <div className="container-clearfix divs">
         <div className="container" id="listingForm">
             <h2>Job Listing Form</h2>

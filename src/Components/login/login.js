@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class LoginDiv extends Component {
   render() {
     return (
-    <div classNameName="container-fluid">
+    <div classNameName="container-fluid" id="loginComponent">
     <div className="container-clearfix divs">
         <div className="container" id="logInForm">
             <p>LogIn</p>
