@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 
 import Header from './Components/header/header';
-import Footer from './Components/footer/footer';
 import Welcome from './Components/welcome/welcome';
+import LoginDiv from './Components/login/login';
+import SignupForm from './Components/signupForm/signupForm';
+import ListingForm from './Components/listingForm/listingForm';
+import RenderListing from './Components/renderListing/renderListing';
+import RenderClient from './Components/renderClient/renderClient';
+import Footer from './Components/footer/footer';
 
 import './Assets/css/deafult.min.css';
 
@@ -14,6 +19,16 @@ class App extends Component {
         <Header />
 
         <Welcome />
+
+        <LoginDiv />
+
+        <SignupForm />
+
+        <ListingForm />
+
+        <RenderClient />
+
+        <RenderListing />
 
         <Footer />
       
